@@ -39,7 +39,7 @@ const About = () => {
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
               <h3 className="text-2xl font-semibold text-white mb-4">My Journey</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I began my journey as a full-stack developer 1.5 years ago. During my training period, I gained hands-on experience working on backend development, which gave me a solid understanding of how complete web applications function from end to end.
+                I began my journey as a full-stack developer 2 years ago. During my training period, I gained hands-on experience working on backend development, which gave me a solid understanding of how complete web applications function from end to end.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Currently, I am working as a React.js developer, focusing on building intuitive and responsive user interfaces. However, my background in backend development allows me to collaborate effectively across the full stack and understand how frontend and backend systems integrate seamlessly.
