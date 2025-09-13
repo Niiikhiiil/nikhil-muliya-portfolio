@@ -2,6 +2,7 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
+
     {
       title: 'Software Developer (React.js)',
       company: 'Peafowl IT Solution',
@@ -19,6 +20,22 @@ const Experience = () => {
       technologies: ['React.js', 'Javascript', 'TypeScript', 'Redux', 'CSS', 'SCSS', 'Bootstrap', 'Tailwind CSS', 'Axios', 'ESLint', 'Prettier']
     },
     {
+      title: 'Freelance Backend Developer (NodeJS)',
+      company: 'Remote Freelance',
+      location: 'Rajkot, Gujarat, India',
+      period: 'Aug 2023 - Oct 2023',
+      type: 'Remote',
+      responsibilities: [
+        'Developed and maintained RESTful APIs using Node.js and Express.js for web and mobile applications',
+        'Designed and implemented database schemas with MongoDB',
+        'Implemented user authentication and authorization using JWT',
+        'Built real-time applications (chat, notifications) using WebSockets/Socket.IO',
+        'Collaborated with frontend developers to ensure seamless integration of APIs',
+        'Delivered projects as a freelancer, ensuring high-quality code, scalability, and on-time delivery'
+      ],
+      technologies: ['Node.js', 'Express.js', 'Javascript', 'TypeScript', 'MongoDB', 'JWT', 'Bcrypt', 'REST APIs', 'Problem Solving', 'Debugging']
+    },
+    {
       title: 'Software Developer Trainee',
       company: 'Intralogic IT Solutions',
       location: 'Rajkot, Gujarat, India',
@@ -33,8 +50,24 @@ const Experience = () => {
         'Gained experience in Git-based version control, code debugging, and deployment workflows'
       ],
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JavaScript', 'Bootstrap', 'Git']
-    }
-
+    },
+    {
+      title: 'Freelance Graphic Designer',
+      company: 'Remote Freelance',
+      location: 'Rajkot, Gujarat, India',
+      period: 'Oct 2019 - Jan 2023',
+      type: 'Remote',
+      responsibilities: [
+        'Provided image editing and retouching services, including background removal, color correction, and photo enhancement',
+        'Created promotional videos, reels, and short-form content for social media platforms (Youtube, Instagram, Facebook, LinkedIn)',
+        'Designed thumbnails, banners, and channel art to increase engagement and brand visibility',
+        'Designed logos, posters, flyers, and presentations for businesses and personal branding',
+        'Experienced with tools like Adobe Photoshop, Illustrator, Premiere Pro, After Effects, and Canva',
+        'Collaborated with clients to understand their vision and delivered customized designs that matched brand identity',
+        'Managed multiple projects as a freelancer, ensuring timely delivery with high-quality results.'
+      ],
+      technologies: ['Adobe Photoshop', 'Adobe Illustrator', 'Canva', 'Adobe Premiere Pro', 'After Effects', 'Filmora', 'Branding', 'Typography', 'Layout Design', 'Thumbnails', 'Social Media Graphics', 'Photo Manipulation', 'Retouching', 'Background Removal', 'Video Editing']
+    },
   ];
 
   return (
@@ -137,6 +170,15 @@ const Experience = () => {
                   <div>
                     <p className="text-white font-medium">Worked As Software Developer Trainee (MERN)</p>
                     <p className="text-gray-400 text-sm">Feb 2023 - May 2023</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-sm font-bold z-10">
+                    3
+                  </div>
+                  <div>
+                    <p className="text-white font-medium">Worked As Freelance Backend Developer (NodeJS, ExpressJS, MongoDB)</p>
+                    <p className="text-gray-400 text-sm">Aug 2023 - Oct 2023</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">

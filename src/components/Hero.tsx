@@ -27,7 +27,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Passionate Software developer with 1.5 years of experience crafting beautiful,
+            Passionate Software developer with 2 years of experience crafting beautiful,
             responsive web applications using React.js, Javascript, Typescript, HTML, CSS, SCSS, Bootstrap, TailwindCSS and also having knowledge in Backend technologies like Node.js, ExpressJS and MongoDB.
           </p>
         </div>

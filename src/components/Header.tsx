@@ -16,7 +16,7 @@ const Header = () => {
   const downloadResume = () => {
     // Create a sample resume download
     const link = document.createElement('a');
-    link.href = '/Nikhil_Muliya_Software_Developer_ReactJS.pdf'; // Adjust the path as necessary
+    link.href = '/Nikhil_Muliya_Software_Developer_React.pdf'; // Adjust the path as necessary
     link.download = 'Nikhil_Muliya_Software_Developer_Resume.pdf';
     document.body.appendChild(link);
     link.click();
