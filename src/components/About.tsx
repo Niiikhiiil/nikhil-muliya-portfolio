@@ -72,7 +72,7 @@ const About = () => {
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: '1.5+', label: 'Years Experience' },
+            { number: '2+', label: 'Years Experience' },
             { number: '15+', label: 'Projects Completed' },
             { number: '10+', label: 'Technologies Used' },
             { number: '100%', label: 'Client Satisfaction' }
